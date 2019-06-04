@@ -5,22 +5,22 @@ $( document ).ready(function(){
     var num2= Math.floor(Math.random()*11+1)
     var num3= Math.floor(Math.random()*11+1)
     var num4= Math.floor(Math.random()*11+1)
-    var userTotal= 0;
-    var wins= 0;
-    var losses= 0;
+    var userTotal= 0
+    var wins= 0
+    var losses= 0
     $('numberWins').text(wins);
     $('numberLosses').text(losses);
 
     function success() {
     alert("You did it!");
     wins++;
-    $('numberWins').text(wins);
+    $('#numberWins').text(wins);
     reset()
     }
     function failure() {
         alert("You have failed.");
         losses++;
-        $('numberLosses').text(losses);
+        $('#numberLosses').text(losses);
         reset()
         }
     function reset(){
@@ -42,6 +42,7 @@ $('#one').on ('click', function(){
     console.log(userTotal);
         if (userTotal == Random){
           success();
+         
         }
         else if ( userTotal > Random){
           failure();
@@ -53,9 +54,11 @@ $('#one').on ('click', function(){
     $('#finalTotal').text(userTotal); 
         if (userTotal == Random){
           success();
+          
         }
         else if ( userTotal > Random){
           failure();
+          
         } 
   })  
   $('#three').on ('click', function(){
@@ -64,9 +67,11 @@ $('#one').on ('click', function(){
     $('#finalTotal').text(userTotal); 
         if (userTotal == Random){
           success();
+          
         }
         else if ( userTotal > Random){
           failure();
+          
         } 
   })  
   $('#four').on ('click', function(){
@@ -75,9 +80,11 @@ $('#one').on ('click', function(){
     $('#finalTotal').text(userTotal); 
         if (userTotal == Random){
           success();
+          
         }
         else if ( userTotal > Random){
           failure();
+          
         } 
   })  
 
