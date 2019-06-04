@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>App Icon Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<script src="assets/javascript/game.js"></script>
+<div class="game">
+    <div class="header">
+        <h1>Phone Problems</h1>
+    </div>
+    <div class="howTo">
+        <h3>
+            How to Play:
+        </h3>
+    </b>
+        <p>Oh no! Your phone is glitching!</p>
+        <p>You must downgrade your OS version.</p>
+        <p>Each of the App icons is worth a random value.</p>
+        <p>Use the App icons to match your total with the System Number to succesfully downgrade your OS version!</p>
+    </div>
+
+    <div class="phone">
+        <div class="comp-number">
+            <h2>System Number:
+                <span id= "randomNumber">
+
+                </span>
+            </h2>
+        </div>
+        <div class="userTotal">
+                <h2>Your total:
+                    <span id="finalTotal"></span>
+                </h2>
+            </div>
+        <div class="winsAndLosses">
+                <h2>Wins:
+                    <span id= "numberWins"></span>
+                    </br>
+                    Losses: 
+                    <span id= "numberLosses"></span>
+                </h2>
+            </div>
+
+        </div>
+        <div class="user-number">
+        </div>
+        <div class="icons">
+                
+                <img src="assets/images/phone.png" class=appIcon id="one" alt="Phone">
+                <img src="assets/images/message.png" class=appIcon id="two" alt="Message">
+                <img src="assets/images/camera.png" class=appIcon id= "three" alt="Camera">
+                <img src="assets/images/settings.png" class=appIcon id= "four" alt="Settings">
+            </div>
+            
+    </div>
+</div>
+</body>
+</html>
