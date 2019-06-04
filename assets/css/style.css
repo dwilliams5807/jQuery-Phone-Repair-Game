@@ -3,3 +3,37 @@ body {
     text-align: center;
     
 }
+.phone {
+  position: relative;
+  text-align: center;
+}
+.compNumber {
+   
+ position: absolute;
+ bottom: 75%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+
+}
+.userTotal {
+   
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+   }
+   .winsAndLosses {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+   }
+   .icons {
+   
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
